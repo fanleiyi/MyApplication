@@ -1,10 +1,10 @@
-package com.tarena.fanly.util;
+package com.example.day06_03_zhihu.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.tarena.fanly.constant.Constant;
+import com.example.day06_03_zhihu.constant.IURL;
 
 /**
  * 对偏好设置文件的操作
@@ -31,13 +31,13 @@ public class SPUtil {
     }
 
     public static boolean isFirst(){
-        return sp.getBoolean(Constant.FIRST,true);
+        return sp.getBoolean(IURL.FIRST,true);
     }
 
     public static void setFirst(boolean flag){
         // 存到偏好设置
         SharedPreferences.Editor editor = sp.edit();
-        editor.putBoolean(Constant.FIRST,flag);
+        editor.putBoolean(IURL.FIRST,flag);
         editor.commit();
     }
 

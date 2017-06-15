@@ -1,5 +1,6 @@
 package com.example.day06_03_zhihu.activity;
 
+import android.app.Notification;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -11,15 +12,19 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.day06_03_zhihu.R;
+import com.example.day06_03_zhihu.util.SPUtil;
 
 public class SplashActivity extends AppCompatActivity {
 
+    SPUtil spUtil;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        spUtil=new SPUtil(this);
         setMainActivityImageView();
         setSplashVersion();
+
 
     }
 
@@ -41,7 +46,17 @@ public class SplashActivity extends AppCompatActivity {
             // 动画结束时执行此方法
             @Override
             public void onAnimationEnd(Animation animation) {
-                startActivity(new Intent(SplashActivity.this,NoviceActivity.class));
+                // 根据是否是第一次使用进行相应的界面跳转
+                Intent intent;
+                if (spUtil.isFirst()){
+                    // 向新手指导页跳转
+                    intent = new Intent(SplashActivity.this,NoviceActivity.class);
+                    spUtil.setFirst(false);
+                }else {
+                    // 向主页面跳转
+                    intent = new Intent(SplashActivity.this,MainActivity.class);
+                }
+                startActivity(intent);
                 finish();
             }
 

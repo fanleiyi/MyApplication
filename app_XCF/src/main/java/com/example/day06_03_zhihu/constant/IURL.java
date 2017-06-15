@@ -11,4 +11,5 @@ public interface IURL {
      String LOGIN_URL=ROOT+"login.do";
      String ADDEMP_URL=ROOT+"addEmp";
      String EMPLOYEELIST_URL=ROOT+"listEmp";
+     String FIRST="first";
 }
