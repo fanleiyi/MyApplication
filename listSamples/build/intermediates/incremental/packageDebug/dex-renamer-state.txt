@@ -1,0 +1,7 @@
+#Thu Jun 15 16:08:21 CST 2017
+base.0=C\:\\Users\\tarena\\AndroidStudioProjects\\MyApplication\\listSamples\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8459a6d5a18aa4b3edf05a3885180fec63fe8d49
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\tarena\\AndroidStudioProjects\\MyApplication\\listSamples\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_796fe63f581a8bba4328909708c6e1b1699c8c18\\classes.dex
+base.1=C\:\\Users\\tarena\\AndroidStudioProjects\\MyApplication\\listSamples\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_796fe63f581a8bba4328909708c6e1b1699c8c18
+file.0=C\:\\Users\\tarena\\AndroidStudioProjects\\MyApplication\\listSamples\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8459a6d5a18aa4b3edf05a3885180fec63fe8d49\\classes.dex

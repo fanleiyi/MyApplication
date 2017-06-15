@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:layout_height="48dp">
+
+    <ImageView
+        android:layout_marginRight="15dp"
+        android:id="@+id/image_action_left"
+        android:src="@drawable/write_a_message"
+        android:layout_gravity="left|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/edit_seek"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:text="信箱"
+        android:layout_gravity="center"
+        android:textColor="#333333"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/image_action_right"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="right|center_vertical"
+        android:src="@drawable/sns_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

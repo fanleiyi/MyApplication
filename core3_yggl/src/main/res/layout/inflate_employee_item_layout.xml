@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    >
+    <TextView
+        android:id="@+id/textView_Employee_Id"
+        android:layout_weight="1"
+        android:text="id"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textView_Employee_Name"
+        android:layout_weight="1"
+        android:text="Name"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textView_Employee_Age"
+        android:layout_weight="1"
+        android:text="Age"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textView_Employee_Gender"
+        android:layout_weight="1"
+        android:text="Gender"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textView_Employee_Salary"
+        android:layout_weight="1"
+        android:text="Salary"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+</LinearLayout>

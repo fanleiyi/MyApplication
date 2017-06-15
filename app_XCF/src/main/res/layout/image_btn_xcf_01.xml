@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="72dp" >
+
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:text="烘焙经典"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:drawableTop="@drawable/hongpeijingdian"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/radioBtn1" />
+
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:id="@+id/radioBtn2"
+            android:text="厨房问答"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:drawableTop="@drawable/chufangwenda"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:id="@+id/radioBtn3"
+            android:text="排行榜"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="#555555"
+
+            android:drawableTop="@drawable/paihangbang"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:id="@+id/radioBtn4"
+            android:text="菜谱分类"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:drawableTop="@drawable/caipu"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="96dp">
+        <RadioButton
+            android:layout_margin="5dp"
+            android:background="@drawable/zaocan"
+            android:layout_width="0dp"
+            android:text="早    餐"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:background="@drawable/zhongcan"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:button="@null"
+            android:textSize="20sp"
+            android:text="午    餐"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:background="@drawable/wancan"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:text="晚    餐"
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </RadioGroup>
+</LinearLayout>

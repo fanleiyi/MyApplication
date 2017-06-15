@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    >
+
+    <employee.karen.tarena.com.imusicmanager.view.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:border_color="@color/white"
+        app:border_width="1dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView_MusicList_Album" />
+
+    <TextView
+        android:text="歌名"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_MusicList_Album"
+        android:layout_toEndOf="@+id/imageView_MusicList_Album"
+        android:layout_marginStart="36dp"
+        android:id="@+id/textView_MusicList_SongName" />
+
+    <TextView
+        android:text="演唱"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView_MusicList_SongName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="102dp"
+        android:id="@+id/textView_MusicList_Singer" />
+
+    <TextView
+        android:text="作词"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_MusicList_Album"
+        android:layout_alignStart="@+id/textView_MusicList_SongName"
+        android:id="@+id/textView_MusicList_Author" />
+
+    <TextView
+        android:text="作曲"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_MusicList_Composer"
+        android:layout_alignBaseline="@+id/textView_MusicList_Author"
+        android:layout_alignBottom="@+id/textView_MusicList_Author"
+        android:layout_alignStart="@+id/textView_MusicList_Singer" />
+
+    <TextView
+        android:text="时长"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_MusicList_Singer"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp"
+        android:id="@+id/textView_MusicList_Duration" />
+</RelativeLayout>

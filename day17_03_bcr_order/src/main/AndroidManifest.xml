@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.day17_03_bcr">
+
+    <permission android:name="permission.ABC"/>
+    <uses-permission android:name="permission.ABC"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".MyReceiver01"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="300">
+                <action android:name="action.ABC"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".MyReceiver02"
+            android:enabled="true"
+            android:exported="true"  >
+            <intent-filter android:priority="500">
+                <action android:name="action.ABC"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".MyReceiver03"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="800">
+                <action android:name="action.ABC"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

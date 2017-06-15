@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp" >
+    
+    <ImageView 
+        android:id="@+id/stateId"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView 
+        android:id="@+id/musicId"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Music Name"
+        android:gravity="bottom"
+        android:layout_toEndOf="@id/stateId"
+        android:layout_alignWithParentIfMissing="true"
+        android:textSize="18sp"
+        />
+    <TextView 
+        android:id="@+id/artistId"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Artist Name"
+        android:layout_below="@id/musicId"
+        android:layout_toEndOf="@id/stateId"
+        android:layout_alignWithParentIfMissing="true"
+        />
+    <ImageView
+        android:id="@+id/closeId" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        />
+
+</RelativeLayout>

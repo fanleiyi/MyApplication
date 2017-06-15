@@ -1,0 +1,1 @@
+include ':app_XCF', ':core4_groupon', ':viewpagerIndicator_library', ':listSamples'

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Day03_01_TextInputLayout</string>
+    <string name="username">用户名</string>
+    <string name="pwd">密码</string>
+</resources>

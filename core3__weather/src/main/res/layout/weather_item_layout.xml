@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+    <ImageView
+        android:id="@+id/imageView_Item_Weather"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/cloudy"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:text="多云"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/textView_Item_Condition"
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:text="10/25"
+        android:textSize="20sp"
+        android:id="@+id/textView_Item_Temp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+    <TextView
+        android:gravity="center_vertical"
+        android:text="星期五"
+        android:textSize="20sp"
+        android:id="@+id/textView_Item_WeekDay"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+</LinearLayout>

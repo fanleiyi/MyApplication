@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bj_city"
+    android:icon="@mipmap/ic_launcher"
+    android:title="北京"
+    />
+    <item android:id="@+id/shh_city"
+        android:icon="@mipmap/ic_launcher"
+        android:title="上海"
+        />
+    <item android:id="@+id/gzh_city"
+        android:icon="@mipmap/ic_launcher"
+        android:title="广州"
+        />
+    <item android:id="@+id/tj_city"
+        android:icon="@mipmap/ic_launcher"
+        android:title="天津"
+        />
+    <item android:id="@+id/chd_city"
+        android:icon="@mipmap/ic_launcher"
+        android:title="成都"
+        />
+    <item android:id="@+id/dl_city"
+        android:icon="@mipmap/ic_launcher"
+        android:title="大连"
+        />
+    <item android:id="@+id/shzh_city"
+        android:icon="@mipmap/ic_launcher"
+        android:title="深圳"
+        />
+    <item android:id="@+id/zhzh_city"
+        android:icon="@mipmap/ic_launcher"
+        android:title="郑州"
+        />
+    <item android:id="@+id/sjzh_city"
+        android:icon="@mipmap/ic_launcher"
+        android:title="石家庄"
+        />
+
+</menu>

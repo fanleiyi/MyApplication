@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 禁用的 -->
+    <item android:state_enabled="false"
+        android:drawable="@drawable/shape_button_disabled"
+        ></item>
+    <!-- 按下的 -->
+	<item android:state_pressed="true"
+	    android:drawable="@drawable/shape_button_pressed"></item> 
+	     <!-- 正常的 -->
+	    <item android:drawable="@drawable/shape_button"></item>
+	
+	
+	
+
+</selector>

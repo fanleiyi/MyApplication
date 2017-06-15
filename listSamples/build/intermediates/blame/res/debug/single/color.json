@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\tarena\\AndroidStudioProjects\\MyApplication\\listSamples\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "C:\\Users\\tarena\\AndroidStudioProjects\\MyApplication\\listSamples\\build\\intermediates\\exploded-aar\\MyApplication\\viewpagerIndicator_library\\unspecified\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\tarena\\AndroidStudioProjects\\MyApplication\\listSamples\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "C:\\Users\\tarena\\AndroidStudioProjects\\MyApplication\\listSamples\\build\\intermediates\\exploded-aar\\MyApplication\\viewpagerIndicator_library\\unspecified\\res\\color\\vpi__dark_theme.xml"
+    }
+]

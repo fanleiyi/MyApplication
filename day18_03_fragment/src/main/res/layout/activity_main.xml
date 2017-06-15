@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.day18_03_fragment.MainActivity">
+
+    <!--容器中要放fragment(静态方式)-->
+    <FrameLayout
+        android:id="@+id/container01"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <fragment
+            android:id="@+id/frg01"
+            class="com.example.day18_03_fragment.Fragment01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <!--容器中要放fragment(动态方式)-->
+    <FrameLayout
+        android:id="@+id/container02"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+    </FrameLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onFrgAdd"
+        android:text="add fragment"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onFrgRemove"
+        android:text="remove fragment"/>
+
+</LinearLayout>

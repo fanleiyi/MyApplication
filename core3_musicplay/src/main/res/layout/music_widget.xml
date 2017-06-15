@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#46A626"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_Widget_Name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="歌名"
+            android:textColor="#FBFBF9"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_Widget_Singer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="歌手"
+            android:textColor="#FBFBF9"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton_Widget_Play"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Widget_Pause"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/pause"
+        android:visibility="gone"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton_Widget_Next"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/next" />
+</LinearLayout>

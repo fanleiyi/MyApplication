@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_XCF/app_XCF.iml" filepath="$PROJECT_DIR$/app_XCF/app_XCF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core4_groupon/core4_groupon.iml" filepath="$PROJECT_DIR$/core4_groupon/core4_groupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_XCF/day06_03_zhihu.iml" filepath="$PROJECT_DIR$/app_XCF/day06_03_zhihu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day_18_02_activity/day_18_02_activity.iml" filepath="$PROJECT_DIR$/day_18_02_activity/day_18_02_activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listSamples/listSamples.iml" filepath="$PROJECT_DIR$/listSamples/listSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerIndicator_library/viewpagerIndicator_library.iml" filepath="$PROJECT_DIR$/viewpagerIndicator_library/viewpagerIndicator_library.iml" />
+    </modules>
+  </component>
+</project>

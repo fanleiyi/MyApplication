@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tarena.karen.youlu03.ChatActivity">
+    <include
+        android:id="@+id/actionbar_Chat"
+        layout="@layout/include_actionbar_layout">
+    </include>
+    <ListView
+        style="@style/list_style"
+        android:id="@+id/listView_Chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+    <include layout="@layout/include_chat_bottom_layout"/>
+</LinearLayout>

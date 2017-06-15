@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.day06_03_zhihu.fragment.MakertFragment">
+
+    <include layout="@layout/toobar_top_01"
+        android:id="@+id/actionbar_makert"
+        android:layout_height="48dp"
+        android:layout_width="match_parent"/>
+
+    <ListView
+        android:id="@+id/listView_Maker"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></ListView>
+
+</LinearLayout>

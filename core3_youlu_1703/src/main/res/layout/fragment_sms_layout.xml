@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/actionbar_Conversation"
+        layout="@layout/include_actionbar_layout"></include>
+    <ListView
+        android:id="@+id/listView_Conversation"
+        style="@style/list_style"
+        android:dividerHeight="1dp"
+        android:divider="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+</LinearLayout>
