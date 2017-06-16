@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="240dp">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:background="@null"
+            android:text="KTV"
+            android:drawableTop="@drawable/ic_home_ktv"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="医疗/健康"
+            android:drawableTop="@drawable/ic_home_frontpage"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="宵夜"
+            android:drawableTop="@drawable/ic_home_pub"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="爱车"
+            android:drawableTop="@drawable/ic_home_car"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:background="@null"
+            android:text="学习培训"
+            android:drawableTop="@drawable/ic_home_book"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:background="@null"
+            android:text="宠物"
+            android:drawableTop="@drawable/ic_home_pet"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button" />
+
+        <Button
+            android:background="@null"
+            android:text="家装"
+            android:drawableTop="@drawable/ic_home_jiazhuang"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="全部分类"
+            android:drawableTop="@drawable/ic_home_more"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

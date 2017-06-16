@@ -34,4 +34,5 @@ dependencies {
     compile 'com.jakewharton:butterknife-compiler:8.6.0'
     apt 'com.jakewharton:butterknife-compiler:8.6.0'
     compile project(':viewpagerIndicator_library')
+    compile project(':pullToRefresh_Library')
 }

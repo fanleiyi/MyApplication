@@ -13,7 +13,6 @@ import com.tarena.fanly.fragment.Guide_02Fragment;
 import com.tarena.fanly.fragment.Guide_03Fragment;
 import com.tarena.fanly.fragment.Guide_04Fragment;
 import com.viewpagerindicator.CirclePageIndicator;
-import com.viewpagerindicator.PageIndicator;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

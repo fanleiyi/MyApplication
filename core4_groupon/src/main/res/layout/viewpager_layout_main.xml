@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="260dp">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_main"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp">
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/radio__vp"
+        android:orientation="horizontal"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:enabled="false"
+            android:id="@+id/radip_vp_btn1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_vp_radiobtn"
+            android:layout_width="0dp"
+            android:checked="true"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:enabled="false"
+            android:button="@null"
+            android:id="@+id/radip_vp_btn2"
+            android:drawableTop="@drawable/selector_vp_radiobtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:enabled="false"
+            android:button="@null"
+            android:id="@+id/radip_vp_btn3"
+            android:drawableTop="@drawable/selector_vp_radiobtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>

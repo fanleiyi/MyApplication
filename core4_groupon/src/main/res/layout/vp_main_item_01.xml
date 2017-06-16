@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="240dp">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:background="@null"
+            android:text="美食"
+            android:drawableTop="@drawable/ic_home_food"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:background="@null"
+            android:text="电影/演出"
+            android:drawableTop="@drawable/ic_home_movie"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button2" />
+
+        <Button
+            android:background="@null"
+            android:text="酒店"
+            android:drawableTop="@drawable/ic_home_hotel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="休闲娱乐"
+            android:drawableTop="@drawable/ic_home_relax"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:background="@null"
+            android:text="外卖"
+            android:drawableTop="@drawable/ic_home_takeaway"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="小吃快餐"
+            android:drawableTop="@drawable/ic_home_coffee"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="丽人/美发"
+            android:drawableTop="@drawable/ic_home_liren"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="周边游"
+            android:drawableTop="@drawable/ic_home_jingdian0528"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

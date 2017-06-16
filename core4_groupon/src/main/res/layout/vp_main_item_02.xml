@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="240dp">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:background="@null"
+            android:text="美食"
+            android:drawableTop="@drawable/ic_home_food"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="足疗按摩"
+            android:drawableTop="@drawable/ic_home_footer"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="旅行"
+            android:drawableTop="@drawable/ic_home_zhoubianyou"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="综合商场"
+            android:drawableTop="@drawable/ic_home_shoppingmall"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:background="@null"
+            android:text="亲子"
+            android:drawableTop="@drawable/ic_home_baby"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="运动健身"
+            android:drawableTop="@drawable/ic_home_sport"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="机票"
+            android:drawableTop="@drawable/ic_home_jipiao"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@null"
+            android:text="结婚/摄影"
+            android:drawableTop="@drawable/ic_home_imarry"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

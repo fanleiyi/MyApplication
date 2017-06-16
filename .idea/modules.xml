@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/app_XCF/day06_03_zhihu.iml" filepath="$PROJECT_DIR$/app_XCF/day06_03_zhihu.iml" />
       <module fileurl="file://$PROJECT_DIR$/day_18_02_activity/day_18_02_activity.iml" filepath="$PROJECT_DIR$/day_18_02_activity/day_18_02_activity.iml" />
       <module fileurl="file://$PROJECT_DIR$/listSamples/listSamples.iml" filepath="$PROJECT_DIR$/listSamples/listSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefresh_Library/pullToRefresh_Library.iml" filepath="$PROJECT_DIR$/pullToRefresh_Library/pullToRefresh_Library.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewpagerIndicator_library/viewpagerIndicator_library.iml" filepath="$PROJECT_DIR$/viewpagerIndicator_library/viewpagerIndicator_library.iml" />
     </modules>
   </component>
