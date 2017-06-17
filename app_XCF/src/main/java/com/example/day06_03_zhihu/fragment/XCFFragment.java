@@ -13,6 +13,7 @@ import android.widget.ListView;
 import com.example.day06_03_zhihu.R;
 import com.example.day06_03_zhihu.adapter.XCFAdapter;
 import com.example.day06_03_zhihu.entity.XCF;
+import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,7 +67,8 @@ public class XCFFragment extends BaseFragment {
             xcf.setTitle("Title-"+(i+1));
             xcfs.add(xcf);
         }
-        ListView listView = (ListView) contentView.findViewById(R.id.xcf_listView);
+        PullToRefreshListView ptrListView = (PullToRefreshListView) contentView.findViewById(R.id.ptrl_xcf);
+        ListView listView =ptrListView.getRefreshableView();
         View headview=View.inflate(getActivity(), R.layout.image_btn_xcf_01, null);
         listView.addHeaderView(headview);
 

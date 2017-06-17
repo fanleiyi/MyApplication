@@ -32,4 +32,6 @@ dependencies {
     compile 'com.android.support:cardview-v7:25.1.1'
     compile 'com.android.support:support-v4:25.1.1'
     testCompile 'junit:junit:4.12'
+    compile project(':pullToRefresh_Library')
+    compile project(':viewpagerIndicator_library')
 }
